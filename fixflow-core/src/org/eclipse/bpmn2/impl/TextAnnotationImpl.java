@@ -19,10 +19,9 @@ import org.eclipse.bpmn2.TextAnnotation;
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
-
-import com.founder.fix.fixflow.core.impl.Context;
-import com.founder.fix.fixflow.core.impl.bpmn.behavior.DefinitionsBehavior;
-import com.founder.fix.fixflow.core.impl.util.StringUtil;
+import org.fixflow.core.impl.Context;
+import org.fixflow.core.impl.bpmn.behavior.DefinitionsBehavior;
+import org.fixflow.core.impl.util.StringUtil;
 
 /**
  * <!-- begin-user-doc -->

@@ -1,5 +1,5 @@
 <%@page import="java.io.*,sun.misc.*"%>
-<%@page import="com.founder.fix.fixflow.core.impl.util.StringUtil"%>
+<%@page import="org.fixflow.core.impl.util.StringUtil"%>
 <%
 
 String pic=request.getParameter("pic");

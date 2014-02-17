@@ -20,8 +20,7 @@ import org.eclipse.bpmn2.Event;
 import org.eclipse.bpmn2.EventDefinition;
 import org.eclipse.bpmn2.ThrowEvent;
 import org.eclipse.emf.ecore.EClass;
-
-import com.founder.fix.fixflow.core.runtime.ExecutionContext;
+import org.fixflow.core.runtime.ExecutionContext;
 
 /**
  * <!-- begin-user-doc -->

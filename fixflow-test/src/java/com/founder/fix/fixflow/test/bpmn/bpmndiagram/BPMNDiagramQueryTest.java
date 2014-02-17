@@ -3,9 +3,8 @@ package com.founder.fix.fixflow.test.bpmn.bpmndiagram;
 import java.util.List;
 
 import org.eclipse.bpmn2.di.BPMNDiagram;
+import org.fixflow.core.impl.bpmn.behavior.ProcessDefinitionBehavior;
 
-
-import com.founder.fix.fixflow.core.impl.bpmn.behavior.ProcessDefinitionBehavior;
 import com.founder.fix.fixflow.test.AbstractFixFlowTestCase;
 import com.founder.fix.fixflow.test.Deployment;
 

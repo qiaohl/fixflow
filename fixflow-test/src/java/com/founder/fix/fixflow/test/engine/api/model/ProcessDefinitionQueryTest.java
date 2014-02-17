@@ -19,9 +19,10 @@ package com.founder.fix.fixflow.test.engine.api.model;
 
 import java.util.List;
 
-import com.founder.fix.fixflow.core.impl.bpmn.behavior.ProcessDefinitionBehavior;
-import com.founder.fix.fixflow.core.model.DeploymentBuilder;
-import com.founder.fix.fixflow.core.model.ProcessDefinitionQuery;
+import org.fixflow.core.impl.bpmn.behavior.ProcessDefinitionBehavior;
+import org.fixflow.core.model.DeploymentBuilder;
+import org.fixflow.core.model.ProcessDefinitionQuery;
+
 import com.founder.fix.fixflow.test.AbstractFixFlowTestCase;
 /**
  * 流程定义查询测试类

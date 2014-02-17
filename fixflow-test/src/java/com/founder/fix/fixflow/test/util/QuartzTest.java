@@ -25,13 +25,13 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
+import org.fixflow.core.impl.schedule.SimpleJob;
 import org.quartz.CronTrigger;
 import org.quartz.JobDetail;
 import org.quartz.Scheduler;
 import org.quartz.SchedulerException;
 import org.quartz.impl.StdSchedulerFactory;
 
-import com.founder.fix.fixflow.core.impl.schedule.SimpleJob;
 import com.founder.fix.fixflow.test.AbstractFixFlowTestCase;
 
 /**

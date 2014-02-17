@@ -15,7 +15,7 @@
     <description></description>
     <display-name>LoginServlet</display-name>
     <servlet-name>LoginServlet</servlet-name>
-    <servlet-class>com.founder.fix.fixflow.LoginServlet</servlet-class>
+    <servlet-class>org.fixflow.LoginServlet</servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
@@ -26,7 +26,7 @@
     <description></description>
     <display-name>FlowCenter</display-name>
     <servlet-name>FlowCenter</servlet-name>
-    <servlet-class>com.founder.fix.fixflow.FlowCenter</servlet-class>
+    <servlet-class>org.fixflow.FlowCenter</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>FlowCenter</servlet-name>
@@ -39,7 +39,7 @@
     <description></description>
     <display-name>FlowManager</display-name>
     <servlet-name>FlowManager</servlet-name>
-    <servlet-class>com.founder.fix.fixflow.FlowManager</servlet-class>
+    <servlet-class>org.fixflow.FlowManager</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>FlowManager</servlet-name>
@@ -49,7 +49,7 @@
     <description></description>
     <display-name>DemoServlet</display-name>
     <servlet-name>DemoServlet</servlet-name>
-    <servlet-class>com.founder.fix.fixflow.DemoServlet</servlet-class>
+    <servlet-class>org.fixflow.DemoServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>DemoServlet</servlet-name>
@@ -61,7 +61,7 @@
     <description></description>
     <display-name>FlowEditor</display-name>
     <servlet-name>FlowEditor</servlet-name>
-    <servlet-class>com.founder.fix.fixflow.editor.FlowEditorServlet</servlet-class>
+    <servlet-class>org.fixflow.editor.FlowEditorServlet</servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
@@ -76,7 +76,7 @@
     <description></description>
     <display-name>FileAndDirectoryServlet</display-name>
     <servlet-name>FileAndDirectoryServlet</servlet-name>
-    <servlet-class>com.founder.fix.fixflow.explorer.FileAndDirectoryServlet</servlet-class>
+    <servlet-class>org.fixflow.explorer.FileAndDirectoryServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>FileAndDirectoryServlet</servlet-name>

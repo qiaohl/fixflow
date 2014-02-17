@@ -23,8 +23,7 @@ import org.eclipse.emf.common.notify.NotificationChain;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
-
-import com.founder.fix.fixflow.core.runtime.ExecutionContext;
+import org.fixflow.core.runtime.ExecutionContext;
 
 /**
  * <!-- begin-user-doc -->

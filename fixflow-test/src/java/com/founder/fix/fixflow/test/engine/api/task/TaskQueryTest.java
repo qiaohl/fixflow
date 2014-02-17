@@ -20,14 +20,15 @@ package com.founder.fix.fixflow.test.engine.api.task;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.founder.fix.fixflow.core.impl.command.ExpandTaskCommand;
-import com.founder.fix.fixflow.core.impl.task.QueryExpandTo;
-import com.founder.fix.fixflow.core.impl.util.GuidUtil;
-import com.founder.fix.fixflow.core.impl.util.QueryTableUtil;
-import com.founder.fix.fixflow.core.runtime.ProcessInstance;
-import com.founder.fix.fixflow.core.task.TaskInstance;
-import com.founder.fix.fixflow.core.task.TaskInstanceType;
-import com.founder.fix.fixflow.core.task.TaskQuery;
+import org.fixflow.core.impl.command.ExpandTaskCommand;
+import org.fixflow.core.impl.task.QueryExpandTo;
+import org.fixflow.core.impl.util.GuidUtil;
+import org.fixflow.core.impl.util.QueryTableUtil;
+import org.fixflow.core.runtime.ProcessInstance;
+import org.fixflow.core.task.TaskInstance;
+import org.fixflow.core.task.TaskInstanceType;
+import org.fixflow.core.task.TaskQuery;
+
 import com.founder.fix.fixflow.test.AbstractFixFlowTestCase;
 import com.founder.fix.fixflow.test.Deployment;
 

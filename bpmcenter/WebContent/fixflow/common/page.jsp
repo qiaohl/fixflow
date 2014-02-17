@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ page import="com.founder.fix.fixflow.util.Pagination" %>
+<%@ page import="org.fixflow.util.Pagination" %>
 <%
 		Pagination pagination = null;
 		Object tpagination = request.getAttribute("pageInfo");

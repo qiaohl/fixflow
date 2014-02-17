@@ -14,7 +14,7 @@
  */
 package org.eclipse.bpmn2;
 
-import com.founder.fix.fixflow.core.runtime.ExecutionContext;
+import org.fixflow.core.runtime.ExecutionContext;
 
 /**
  * <!-- begin-user-doc -->

@@ -22,11 +22,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.founder.fix.fixflow.core.impl.bpmn.behavior.ProcessDefinitionBehavior;
-import com.founder.fix.fixflow.core.impl.command.ExpandTaskCommand;
-import com.founder.fix.fixflow.core.runtime.ProcessInstance;
-import com.founder.fix.fixflow.core.task.TaskInstance;
-import com.founder.fix.fixflow.core.task.TaskQuery;
+import org.fixflow.core.impl.bpmn.behavior.ProcessDefinitionBehavior;
+import org.fixflow.core.impl.command.ExpandTaskCommand;
+import org.fixflow.core.runtime.ProcessInstance;
+import org.fixflow.core.task.TaskInstance;
+import org.fixflow.core.task.TaskQuery;
+
 import com.founder.fix.fixflow.test.AbstractFixFlowTestCase;
 import com.founder.fix.fixflow.test.Deployment;
 

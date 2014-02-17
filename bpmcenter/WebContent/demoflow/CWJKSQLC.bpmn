@@ -8,6 +8,9 @@
       <fixflow:formUri>
         <fixflow:expression xsi:type="fixflow:Expression" id="Expression_2" name="&quot;DemoServlet?action=doTask&quot;">&quot;DemoServlet?action=doTask&quot;</fixflow:expression>
       </fixflow:formUri>
+      <fixflow:DataVariable id="dddd" dataType="java.lang.String" bizType="customVariable">
+        <fixflow:documentation xsi:type="fixflow:Documentation"></fixflow:documentation>
+      </fixflow:DataVariable>
     </bpmn2:extensionElements>
     <bpmn2:laneSet id="LaneSet_1" name="Lane Set 1">
       <bpmn2:lane id="Lane_1" name="财务借款申请流程">
@@ -135,6 +138,7 @@
           <bpmn2:formalExpression id="&quot;011&quot;">&quot;011&quot;</bpmn2:formalExpression>
         </bpmn2:resourceAssignmentExpression>
       </bpmn2:potentialOwner>
+      <bpmn2:multiInstanceLoopCharacteristics id="MultiInstanceLoopCharacteristics_1"/>
     </bpmn2:userTask>
     <bpmn2:sequenceFlow id="SequenceFlow_3" name="" sourceRef="UserTask_1" targetRef="ExclusiveGateway_1"/>
     <bpmn2:sequenceFlow id="SequenceFlow_4" name="" sourceRef="ExclusiveGateway_1" targetRef="UserTask_2">
@@ -164,6 +168,15 @@
         </fixflow:taskCommand>
         <fixflow:taskCommand id="HandleCommand_3" name="接收任务" commandType="claim" isVerification="false" isSaveData="false" isSimulationRun="false"/>
         <fixflow:expectedExecutionTime/>
+        <fixflow:connectorInstance connectorId="TimeoutHandling" packageName="com.founder.fix.fixflow.expand.flowconnector.TimeoutHandling" className="TimeoutHandling" connectorInstanceId="07e3ecfe-3eee-4917-b3f3-15f69083d904" connectorInstanceName="test" eventType="node-enter" errorHandling="抛出异常" errorCode="" type="flowconnector">
+          <documentation xsi:type="fixflow:Documentation"></documentation>
+          <fixflow:connectorParameterInputs xsi:type="fixflow:ConnectorParameterInputs" id="commandId" name="处理命令编号" dataType="java.lang.String">
+            <fixflow:expression xsi:type="fixflow:Expression" name="ssss">ssss</fixflow:expression>
+          </fixflow:connectorParameterInputs>
+          <fixflow:connectorParameterInputs xsi:type="fixflow:ConnectorParameterInputs" id="opinion" name="处理意见" dataType="java.lang.String">
+            <fixflow:expression xsi:type="fixflow:Expression" name="sseeeddd">sseeeddd</fixflow:expression>
+          </fixflow:connectorParameterInputs>
+        </fixflow:connectorInstance>
       </bpmn2:extensionElements>
       <bpmn2:incoming>SequenceFlow_4</bpmn2:incoming>
       <bpmn2:outgoing>SequenceFlow_5</bpmn2:outgoing>
@@ -308,21 +321,6 @@ return null;</bpmn2:formalExpression>
   </bpmn2:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1" name="Default 流程定义">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="CWJKSQLC">
-      <bpmndi:BPMNShape id="BPMNShape_1">
-        <dc:Bounds height="36.0" width="36.0" x="100.0" y="100.0"/>
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
-        <dc:Bounds height="36.0" width="36.0" x="90.0" y="43.0"/>
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="BPMNShape_UserTask_1" bpmnElement="UserTask_1">
-        <dc:Bounds height="50.0" width="110.0" x="160.0" y="36.0"/>
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_1" bpmnElement="SequenceFlow_1" sourceElement="BPMNShape_StartEvent_2" targetElement="BPMNShape_UserTask_1">
-        <di:waypoint xsi:type="dc:Point" x="126.0" y="61.0"/>
-        <di:waypoint xsi:type="dc:Point" x="141.0" y="61.0"/>
-        <di:waypoint xsi:type="dc:Point" x="141.0" y="61.0"/>
-        <di:waypoint xsi:type="dc:Point" x="160.0" y="61.0"/>
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="BPMNShape_Lane_1" bpmnElement="Lane_1" isHorizontal="true">
         <dc:Bounds height="694.0" width="1201.0" x="10.0" y="10.0"/>
       </bpmndi:BPMNShape>
@@ -368,6 +366,15 @@ return null;</bpmn2:formalExpression>
       <bpmndi:BPMNShape id="BPMNShape_Lane_15" bpmnElement="Lane_15" isHorizontal="true">
         <dc:Bounds height="100.0" width="1141.0" x="70.0" y="604.0"/>
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_1">
+        <dc:Bounds height="36.0" width="36.0" x="100.0" y="100.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds height="36.0" width="36.0" x="90.0" y="43.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_UserTask_1" bpmnElement="UserTask_1">
+        <dc:Bounds height="50.0" width="110.0" x="160.0" y="36.0"/>
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="BPMNShape_EndEvent_2" bpmnElement="EndEvent_2">
         <dc:Bounds height="36.0" width="36.0" x="1160.0" y="637.0"/>
       </bpmndi:BPMNShape>
@@ -404,6 +411,12 @@ return null;</bpmn2:formalExpression>
       <bpmndi:BPMNShape id="BPMNShape_UserTask_7" bpmnElement="UserTask_7">
         <dc:Bounds height="50.0" width="110.0" x="830.0" y="630.0"/>
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_1" bpmnElement="SequenceFlow_1" sourceElement="BPMNShape_StartEvent_2" targetElement="BPMNShape_UserTask_1">
+        <di:waypoint xsi:type="dc:Point" x="126.0" y="61.0"/>
+        <di:waypoint xsi:type="dc:Point" x="141.0" y="61.0"/>
+        <di:waypoint xsi:type="dc:Point" x="141.0" y="61.0"/>
+        <di:waypoint xsi:type="dc:Point" x="160.0" y="61.0"/>
+      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_3" bpmnElement="SequenceFlow_3" sourceElement="BPMNShape_UserTask_1" targetElement="BPMNShape_ExclusiveGateway_1">
         <di:waypoint xsi:type="dc:Point" x="270.0" y="61.0"/>
         <di:waypoint xsi:type="dc:Point" x="292.0" y="61.0"/>

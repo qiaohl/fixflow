@@ -21,13 +21,14 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import com.founder.fix.fixflow.core.impl.command.ExpandTaskCommand;
-import com.founder.fix.fixflow.core.runtime.ProcessInstance;
-import com.founder.fix.fixflow.core.runtime.ProcessInstanceQuery;
-import com.founder.fix.fixflow.core.runtime.Token;
-import com.founder.fix.fixflow.core.runtime.TokenQuery;
-import com.founder.fix.fixflow.core.task.TaskInstance;
-import com.founder.fix.fixflow.core.task.TaskQuery;
+import org.fixflow.core.impl.command.ExpandTaskCommand;
+import org.fixflow.core.runtime.ProcessInstance;
+import org.fixflow.core.runtime.ProcessInstanceQuery;
+import org.fixflow.core.runtime.Token;
+import org.fixflow.core.runtime.TokenQuery;
+import org.fixflow.core.task.TaskInstance;
+import org.fixflow.core.task.TaskQuery;
+
 import com.founder.fix.fixflow.test.AbstractFixFlowTestCase;
 import com.founder.fix.fixflow.test.Deployment;
 

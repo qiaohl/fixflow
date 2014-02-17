@@ -37,25 +37,25 @@ import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
 import org.eclipse.emf.ecore.util.FeatureMap;
 import org.eclipse.emf.ecore.util.InternalEList;
+import org.fixflow.core.event.BaseElementEvent;
+import org.fixflow.core.exception.FixFlowException;
+import org.fixflow.core.impl.Context;
+import org.fixflow.core.impl.connector.ConnectorInstanceBehavior;
+import org.fixflow.core.impl.expression.ExpressionMgmt;
+import org.fixflow.core.impl.job.ConnectorTimeJob;
+import org.fixflow.core.impl.runtime.TokenEntity;
+import org.fixflow.core.impl.util.EMFUtil;
+import org.fixflow.core.impl.util.GuidUtil;
+import org.fixflow.core.impl.util.QuartzUtil;
+import org.fixflow.core.impl.util.StringUtil;
+import org.fixflow.core.runtime.ExecutionContext;
+import org.fixflow.core.task.TaskInstance;
 import org.quartz.JobDetail;
 import org.quartz.Scheduler;
 import org.quartz.Trigger;
 
 import com.founder.fix.bpmn2extensions.fixflow.ConnectorInstance;
 import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
-import com.founder.fix.fixflow.core.event.BaseElementEvent;
-import com.founder.fix.fixflow.core.exception.FixFlowException;
-import com.founder.fix.fixflow.core.impl.Context;
-import com.founder.fix.fixflow.core.impl.connector.ConnectorInstanceBehavior;
-import com.founder.fix.fixflow.core.impl.expression.ExpressionMgmt;
-import com.founder.fix.fixflow.core.impl.job.ConnectorTimeJob;
-import com.founder.fix.fixflow.core.impl.runtime.TokenEntity;
-import com.founder.fix.fixflow.core.impl.util.EMFUtil;
-import com.founder.fix.fixflow.core.impl.util.GuidUtil;
-import com.founder.fix.fixflow.core.impl.util.QuartzUtil;
-import com.founder.fix.fixflow.core.impl.util.StringUtil;
-import com.founder.fix.fixflow.core.runtime.ExecutionContext;
-import com.founder.fix.fixflow.core.task.TaskInstance;
 
 /**
  * <!-- begin-user-doc --> An implementation of the model object '

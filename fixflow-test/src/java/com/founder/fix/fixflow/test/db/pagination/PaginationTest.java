@@ -3,9 +3,10 @@ package com.founder.fix.fixflow.test.db.pagination;
 import java.util.List;
 import java.util.Map;
 
-import com.founder.fix.fixflow.core.db.pagination.Pagination;
-import com.founder.fix.fixflow.core.impl.Context;
-import com.founder.fix.fixflow.core.impl.db.SqlCommand;
+import org.fixflow.core.db.pagination.Pagination;
+import org.fixflow.core.impl.Context;
+import org.fixflow.core.impl.db.SqlCommand;
+
 import com.founder.fix.fixflow.test.AbstractFixFlowTestCase;
 
 /**

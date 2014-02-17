@@ -3,13 +3,10 @@ import java.io.IOException;
 import java.util.List;
 
 import org.dom4j.DocumentException;
-
 import org.eclipse.bpmn2.BaseElement;
 import org.eclipse.bpmn2.Definitions;
 import org.eclipse.bpmn2.EndEvent;
-
 import org.eclipse.bpmn2.StartEvent;
-
 import org.eclipse.bpmn2.Task;
 import org.eclipse.bpmn2.di.BPMNDiagram;
 import org.eclipse.bpmn2.di.BPMNShape;
@@ -18,8 +15,7 @@ import org.eclipse.bpmn2.util.Bpmn2ResourceFactoryImpl;
 import org.eclipse.dd.di.DiagramElement;
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.resource.Resource;
-
-import com.founder.fix.fixflow.core.impl.bpmn.behavior.DefinitionsBehavior;
+import org.fixflow.core.impl.bpmn.behavior.DefinitionsBehavior;
 
 
 public class test {

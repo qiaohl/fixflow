@@ -1,7 +1,8 @@
 package com.founder.fix.fixflow.test.connection;
 
 
-import com.founder.fix.fixflow.core.impl.Context;
+import org.fixflow.core.impl.Context;
+
 import com.founder.fix.fixflow.test.AbstractFixFlowTestCase;
 
 

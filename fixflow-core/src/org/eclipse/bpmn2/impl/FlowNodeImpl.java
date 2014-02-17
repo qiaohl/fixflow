@@ -34,13 +34,12 @@ import org.eclipse.emf.ecore.InternalEObject;
 import org.eclipse.emf.ecore.util.EObjectWithInverseEList;
 import org.eclipse.emf.ecore.util.EObjectWithInverseResolvingEList;
 import org.eclipse.emf.ecore.util.InternalEList;
-
-import com.founder.fix.fixflow.core.event.BaseElementEvent;
-import com.founder.fix.fixflow.core.exception.FixFlowException;
-import com.founder.fix.fixflow.core.factory.ProcessObjectFactory;
-import com.founder.fix.fixflow.core.impl.bpmn.behavior.ComparatorSequence;
-import com.founder.fix.fixflow.core.impl.runtime.TokenEntity;
-import com.founder.fix.fixflow.core.runtime.ExecutionContext;
+import org.fixflow.core.event.BaseElementEvent;
+import org.fixflow.core.exception.FixFlowException;
+import org.fixflow.core.factory.ProcessObjectFactory;
+import org.fixflow.core.impl.bpmn.behavior.ComparatorSequence;
+import org.fixflow.core.impl.runtime.TokenEntity;
+import org.fixflow.core.runtime.ExecutionContext;
 
 /**
  * <!-- begin-user-doc --> An implementation of the model object '

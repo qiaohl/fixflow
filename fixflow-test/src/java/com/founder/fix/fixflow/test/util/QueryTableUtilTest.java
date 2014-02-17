@@ -17,10 +17,11 @@
  */
 package com.founder.fix.fixflow.test.util;
 
-import com.founder.fix.fixflow.core.exception.FixFlowException;
-import com.founder.fix.fixflow.core.impl.util.QueryTableUtil;
-import com.founder.fix.fixflow.core.impl.util.StringUtil;
-import com.founder.fix.fixflow.core.runtime.QueryLocation;
+import org.fixflow.core.exception.FixFlowException;
+import org.fixflow.core.impl.util.QueryTableUtil;
+import org.fixflow.core.impl.util.StringUtil;
+import org.fixflow.core.runtime.QueryLocation;
+
 import com.founder.fix.fixflow.test.AbstractFixFlowTestCase;
 
 /**

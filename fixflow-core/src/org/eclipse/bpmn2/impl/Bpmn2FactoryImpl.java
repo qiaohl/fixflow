@@ -21,8 +21,7 @@ import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.impl.EFactoryImpl;
 import org.eclipse.emf.ecore.plugin.EcorePlugin;
-
-import com.founder.fix.fixflow.core.impl.util.BpmnElement;
+import org.fixflow.core.impl.util.BpmnElement;
 
 //import com.founder.fix.fixflow.core.impl.bpmn.behavior.BoundaryEventBehavior;
 //import com.founder.fix.fixflow.core.impl.bpmn.behavior.CallActivityBehavior;

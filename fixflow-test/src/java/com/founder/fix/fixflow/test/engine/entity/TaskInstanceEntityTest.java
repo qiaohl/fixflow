@@ -8,14 +8,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.fixflow.core.impl.db.AbstractPersistentObject;
+import org.fixflow.core.impl.task.TaskInstanceEntity;
+import org.fixflow.core.impl.util.ReflectUtil;
+import org.fixflow.core.impl.util.StringUtil;
+import org.fixflow.core.task.DelegationState;
+import org.fixflow.core.task.TaskInstanceType;
+
 import com.founder.fix.bpmn2extensions.sqlmappingconfig.Result;
 import com.founder.fix.bpmn2extensions.sqlmappingconfig.ResultMap;
-import com.founder.fix.fixflow.core.impl.db.AbstractPersistentObject;
-import com.founder.fix.fixflow.core.impl.task.TaskInstanceEntity;
-import com.founder.fix.fixflow.core.impl.util.ReflectUtil;
-import com.founder.fix.fixflow.core.impl.util.StringUtil;
-import com.founder.fix.fixflow.core.task.DelegationState;
-import com.founder.fix.fixflow.core.task.TaskInstanceType;
 import com.founder.fix.fixflow.test.AbstractFixFlowTestCase;
 
 public class TaskInstanceEntityTest extends AbstractFixFlowTestCase {

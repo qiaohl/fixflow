@@ -31,11 +31,10 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.EObjectResolvingEList;
 import org.eclipse.emf.ecore.util.InternalEList;
-
-import com.founder.fix.fixflow.core.ProcessEngineManagement;
-import com.founder.fix.fixflow.core.impl.Context;
-import com.founder.fix.fixflow.core.impl.bpmn.behavior.DefinitionsBehavior;
-import com.founder.fix.fixflow.core.impl.util.StringUtil;
+import org.fixflow.core.ProcessEngineManagement;
+import org.fixflow.core.impl.Context;
+import org.fixflow.core.impl.bpmn.behavior.DefinitionsBehavior;
+import org.fixflow.core.impl.util.StringUtil;
 
 /**
  * <!-- begin-user-doc -->

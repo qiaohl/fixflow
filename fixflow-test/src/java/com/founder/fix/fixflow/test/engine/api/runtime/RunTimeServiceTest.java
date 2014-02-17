@@ -20,11 +20,12 @@ package com.founder.fix.fixflow.test.engine.api.runtime;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.founder.fix.fixflow.core.exception.FixFlowException;
-import com.founder.fix.fixflow.core.impl.command.StartProcessInstanceCommand;
-import com.founder.fix.fixflow.core.runtime.ProcessInstance;
-import com.founder.fix.fixflow.core.runtime.ProcessInstanceQuery;
-import com.founder.fix.fixflow.core.runtime.ProcessInstanceType;
+import org.fixflow.core.exception.FixFlowException;
+import org.fixflow.core.impl.command.StartProcessInstanceCommand;
+import org.fixflow.core.runtime.ProcessInstance;
+import org.fixflow.core.runtime.ProcessInstanceQuery;
+import org.fixflow.core.runtime.ProcessInstanceType;
+
 import com.founder.fix.fixflow.test.AbstractFixFlowTestCase;
 import com.founder.fix.fixflow.test.Deployment;
 

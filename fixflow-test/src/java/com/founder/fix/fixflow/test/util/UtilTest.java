@@ -1,7 +1,8 @@
 package com.founder.fix.fixflow.test.util;
 
-import com.founder.fix.fixflow.core.db.pagination.Pagination;
-import com.founder.fix.fixflow.core.impl.util.ReflectUtil;
+import org.fixflow.core.db.pagination.Pagination;
+import org.fixflow.core.impl.util.ReflectUtil;
+
 import com.founder.fix.fixflow.test.AbstractFixFlowTestCase;
 
 /**
