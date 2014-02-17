@@ -33,9 +33,8 @@ import org.fixflow.core.runtime.ExecutionContext;
 import org.fixflow.core.runtime.ProcessInstanceType;
 import org.fixflow.core.task.TaskInstance;
 import org.fixflow.core.task.TaskInstanceType;
-
-import com.founder.fix.bpmn2extensions.coreconfig.TaskCommandDef;
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
+import org.fixflow.model.bpmnextensions.FixFlowPackage;
+import org.fixflow.model.coreconfig.TaskCommandDef;
 
 
 public class StartEventBehavior extends StartEventImpl {

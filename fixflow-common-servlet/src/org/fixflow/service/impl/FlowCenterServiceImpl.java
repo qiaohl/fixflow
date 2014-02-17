@@ -64,7 +64,7 @@ import org.fixflow.util.Pagination;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
-import com.founder.fix.bpmn2extensions.coreconfig.AllUserInfo;
+import org.fixflow.model.coreconfig.AllUserInfo;
 @Scope("prototype")
 @Service
 public class FlowCenterServiceImpl extends CommonServiceImpl implements FlowCenterService {

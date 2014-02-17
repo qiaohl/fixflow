@@ -23,13 +23,8 @@ import java.util.List;
 import org.eclipse.bpmn2.BaseElement;
 import org.eclipse.bpmn2.ExtensionAttributeValue;
 import org.eclipse.emf.ecore.util.FeatureMap;
-
-
-import com.founder.fix.bpmn2extensions.fixflow.DataVariable;
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
-
-
-
+import org.fixflow.model.bpmnextensions.DataVariable;
+import org.fixflow.model.bpmnextensions.FixFlowPackage;
 
 /**
  * 获取EMF对象扩展元素的工具类

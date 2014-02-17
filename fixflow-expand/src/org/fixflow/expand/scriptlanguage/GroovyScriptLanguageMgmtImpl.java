@@ -30,8 +30,7 @@ import org.fixflow.core.impl.db.SqlCommand;
 import org.fixflow.core.impl.expression.ExpressionMgmt;
 import org.fixflow.core.runtime.ExecutionContext;
 import org.fixflow.core.scriptlanguage.AbstractScriptLanguageMgmt;
-
-import com.founder.fix.bpmn2extensions.sqlmappingconfig.Rule;
+import org.fixflow.model.sqlmappingconfig.Rule;
 
 public class GroovyScriptLanguageMgmtImpl extends AbstractScriptLanguageMgmt {
 

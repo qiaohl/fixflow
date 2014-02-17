@@ -20,14 +20,11 @@ package org.fixflow.core.impl.cmd;
 import java.util.ArrayList;
 import java.util.List;
 
-
-
 import org.fixflow.core.impl.bpmn.behavior.TaskCommandInst;
 import org.fixflow.core.impl.interceptor.Command;
 import org.fixflow.core.impl.interceptor.CommandContext;
 import org.fixflow.core.impl.util.StringUtil;
-
-import com.founder.fix.bpmn2extensions.coreconfig.TaskCommandDef;
+import org.fixflow.model.coreconfig.TaskCommandDef;
 
 public class GetSystemTaskCommandCmd implements Command<List<TaskCommandInst>> {
 

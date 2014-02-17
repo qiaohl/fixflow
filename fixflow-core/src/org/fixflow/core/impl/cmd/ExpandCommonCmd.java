@@ -23,9 +23,8 @@ import org.fixflow.core.exception.FixFlowException;
 import org.fixflow.core.impl.interceptor.Command;
 import org.fixflow.core.impl.interceptor.CommandContext;
 import org.fixflow.core.impl.util.ReflectUtil;
-
-import com.founder.fix.bpmn2extensions.coreconfig.ExpandCmd;
-import com.founder.fix.bpmn2extensions.coreconfig.ExpandCmdConfig;
+import org.fixflow.model.coreconfig.ExpandCmd;
+import org.fixflow.model.coreconfig.ExpandCmdConfig;
 
 public class ExpandCommonCmd<T> implements Command<T> {
 	

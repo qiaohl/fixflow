@@ -20,9 +20,6 @@ package org.fixflow.core.impl.factory;
 import java.sql.Connection;
 import java.util.List;
 
-
-
-
 import org.fixflow.core.ProcessEngineManagement;
 import org.fixflow.core.action.AssignmentHandler;
 import org.fixflow.core.action.CommandHandler;
@@ -58,11 +55,8 @@ import org.fixflow.core.runtime.TokenQuery;
 import org.fixflow.core.task.TaskDefinition;
 import org.fixflow.core.task.TaskMgmtInstance;
 import org.fixflow.core.task.TaskQuery;
-
-import com.founder.fix.bpmn2extensions.coreconfig.ExpandClass;
-import com.founder.fix.bpmn2extensions.coreconfig.ExpandClassConfig;
-
-
+import org.fixflow.model.coreconfig.ExpandClass;
+import org.fixflow.model.coreconfig.ExpandClassConfig;
 
 
 public class ProcessObjectFactoryImpl implements ProcessObjectFactory {

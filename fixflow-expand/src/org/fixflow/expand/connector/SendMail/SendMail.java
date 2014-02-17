@@ -27,9 +27,8 @@ import org.fixflow.core.impl.identity.Authentication;
 import org.fixflow.core.runtime.ExecutionContext;
 import org.fixflow.expand.mail.FixMailEngine;
 import org.fixflow.expand.mail.FixMailTo;
-
-import com.founder.fix.bpmn2extensions.coreconfig.MailInfo;
-import com.founder.fix.bpmn2extensions.coreconfig.SysMailConfig;
+import org.fixflow.model.coreconfig.MailInfo;
+import org.fixflow.model.coreconfig.SysMailConfig;
 
 public class SendMail implements ConnectorHandler {
 

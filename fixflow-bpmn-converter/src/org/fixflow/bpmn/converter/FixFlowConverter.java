@@ -21,16 +21,13 @@ import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
 
 import org.codehaus.jackson.JsonNode;
 import org.codehaus.jackson.node.ObjectNode;
-import org.dom4j.Document;
 import org.eclipse.bpmn2.Bpmn2Package;
 import org.eclipse.bpmn2.Definitions;
 import org.eclipse.bpmn2.DocumentRoot;
@@ -48,10 +45,8 @@ import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
 import org.fixflow.core.exception.FixFlowException;
 import org.fixflow.core.impl.bpmn.behavior.DefinitionsBehavior;
 import org.fixflow.core.impl.util.ReflectUtil;
-import org.fixflow.core.impl.util.XmlUtil;
 import org.fixflow.editor.language.json.converter.BpmnJsonConverter;
-
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
+import org.fixflow.model.bpmnextensions.FixFlowPackage;
 
 public class FixFlowConverter {
 	

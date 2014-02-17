@@ -25,9 +25,8 @@ import org.fixflow.core.ProcessEngineManagement;
 import org.fixflow.core.exception.FixFlowDbException;
 import org.fixflow.core.exception.FixFlowException;
 import org.fixflow.core.impl.db.FixConnectionResult;
-
-import com.founder.fix.bpmn2extensions.coreconfig.DataBase;
-import com.founder.fix.bpmn2extensions.coreconfig.FixFlowConfig;
+import org.fixflow.model.coreconfig.DataBase;
+import org.fixflow.model.coreconfig.FixFlowConfig;
 
 
 public class GeneralConnectionResultImpl implements FixConnectionResult {

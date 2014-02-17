@@ -43,19 +43,18 @@ import org.fixflow.core.task.IdentityLink;
 import org.fixflow.core.task.TaskDefinition;
 import org.fixflow.core.task.TaskInstanceType;
 import org.fixflow.core.task.TaskMgmtInstance;
-
-import com.founder.fix.bpmn2extensions.coreconfig.TaskCommandDef;
-import com.founder.fix.bpmn2extensions.fixflow.AssignPolicyType;
-import com.founder.fix.bpmn2extensions.fixflow.ExpectedExecutionTime;
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
-import com.founder.fix.bpmn2extensions.fixflow.FormUri;
-import com.founder.fix.bpmn2extensions.fixflow.FormUriView;
-import com.founder.fix.bpmn2extensions.fixflow.SkipAssignee;
-import com.founder.fix.bpmn2extensions.fixflow.SkipComment;
-import com.founder.fix.bpmn2extensions.fixflow.SkipStrategy;
-import com.founder.fix.bpmn2extensions.fixflow.TaskCommand;
-import com.founder.fix.bpmn2extensions.fixflow.TaskPriority;
-import com.founder.fix.bpmn2extensions.fixflow.TaskSubject;
+import org.fixflow.model.bpmnextensions.AssignPolicyType;
+import org.fixflow.model.bpmnextensions.ExpectedExecutionTime;
+import org.fixflow.model.bpmnextensions.FixFlowPackage;
+import org.fixflow.model.bpmnextensions.FormUri;
+import org.fixflow.model.bpmnextensions.FormUriView;
+import org.fixflow.model.bpmnextensions.SkipAssignee;
+import org.fixflow.model.bpmnextensions.SkipComment;
+import org.fixflow.model.bpmnextensions.SkipStrategy;
+import org.fixflow.model.bpmnextensions.TaskCommand;
+import org.fixflow.model.bpmnextensions.TaskPriority;
+import org.fixflow.model.bpmnextensions.TaskSubject;
+import org.fixflow.model.coreconfig.TaskCommandDef;
 
 public class UserTaskBehavior extends UserTaskImpl {
 

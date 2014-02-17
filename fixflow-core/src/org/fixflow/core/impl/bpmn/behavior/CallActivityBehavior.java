@@ -37,12 +37,11 @@ import org.fixflow.core.impl.util.StringUtil;
 import org.fixflow.core.runtime.ExecutionContext;
 import org.fixflow.core.task.TaskInstance;
 import org.fixflow.core.task.TaskInstanceType;
-
-import com.founder.fix.bpmn2extensions.coreconfig.TaskCommandDef;
-import com.founder.fix.bpmn2extensions.fixflow.DataSourceToSubProcessMapping;
-import com.founder.fix.bpmn2extensions.fixflow.DataVariableMapping;
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
-import com.founder.fix.bpmn2extensions.fixflow.SubProcessToDataSourceMapping;
+import org.fixflow.model.bpmnextensions.DataSourceToSubProcessMapping;
+import org.fixflow.model.bpmnextensions.DataVariableMapping;
+import org.fixflow.model.bpmnextensions.FixFlowPackage;
+import org.fixflow.model.bpmnextensions.SubProcessToDataSourceMapping;
+import org.fixflow.model.coreconfig.TaskCommandDef;
 
 public class CallActivityBehavior extends CallActivityImpl {
 

@@ -61,12 +61,11 @@ import org.fixflow.core.impl.util.EMFExtensionUtil;
 import org.fixflow.core.impl.util.QueryTableUtil;
 import org.fixflow.core.impl.util.ReflectUtil;
 import org.fixflow.core.impl.util.StringUtil;
-
-import com.founder.fix.bpmn2extensions.fixflow.ConnectorInstance;
-import com.founder.fix.bpmn2extensions.fixflow.ConnectorParameterInputs;
-import com.founder.fix.bpmn2extensions.fixflow.ConnectorParameterOutputs;
-import com.founder.fix.bpmn2extensions.fixflow.DataVariable;
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
+import org.fixflow.model.bpmnextensions.ConnectorInstance;
+import org.fixflow.model.bpmnextensions.ConnectorParameterInputs;
+import org.fixflow.model.bpmnextensions.ConnectorParameterOutputs;
+import org.fixflow.model.bpmnextensions.DataVariable;
+import org.fixflow.model.bpmnextensions.FixFlowPackage;
 
 public class ProcessDefinitionPersistence {
 

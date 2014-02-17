@@ -33,14 +33,11 @@ import org.eclipse.bpmn2.FlowElement;
 import org.fixflow.core.impl.bpmn.behavior.CallActivityBehavior;
 import org.fixflow.core.impl.util.BpmnModelUtil;
 import org.fixflow.core.impl.util.StringUtil;
-import org.fixflow.editor.language.json.converter.BaseBpmnJsonConverter;
-import org.fixflow.editor.language.json.converter.CallActivityJsonConverter;
-
-import com.founder.fix.bpmn2extensions.fixflow.DataSourceToSubProcessMapping;
-import com.founder.fix.bpmn2extensions.fixflow.DataVariableMapping;
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowFactory;
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
-import com.founder.fix.bpmn2extensions.fixflow.SubProcessToDataSourceMapping;
+import org.fixflow.model.bpmnextensions.DataSourceToSubProcessMapping;
+import org.fixflow.model.bpmnextensions.DataVariableMapping;
+import org.fixflow.model.bpmnextensions.FixFlowFactory;
+import org.fixflow.model.bpmnextensions.FixFlowPackage;
+import org.fixflow.model.bpmnextensions.SubProcessToDataSourceMapping;
 
 public class CallActivityJsonConverter extends BaseBpmnJsonConverter {
 

@@ -26,8 +26,8 @@ import org.fixflow.core.impl.Page;
 import org.fixflow.core.impl.db.SqlCommand;
 import org.fixflow.core.impl.util.StringUtil;
 
-import com.founder.fix.bpmn2extensions.coreconfig.AllUserInfo;
-import com.founder.fix.bpmn2extensions.coreconfig.DesignerOrgConfig;
+import org.fixflow.model.coreconfig.AllUserInfo;
+import org.fixflow.model.coreconfig.DesignerOrgConfig;
 
 public abstract class UserDefinition {
 	

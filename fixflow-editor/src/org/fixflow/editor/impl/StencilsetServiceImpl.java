@@ -34,16 +34,15 @@ import org.fixflow.core.impl.identity.GroupDefinition;
 import org.fixflow.core.impl.util.StringUtil;
 import org.fixflow.editor.language.json.converter.util.JsonConverterUtil;
 import org.fixflow.editor.service.StencilsetService;
-
-import com.founder.fix.bpmn2extensions.coreconfig.AssignPolicy;
-import com.founder.fix.bpmn2extensions.coreconfig.AssignPolicyConfig;
-import com.founder.fix.bpmn2extensions.coreconfig.TaskCommandConfig;
-import com.founder.fix.bpmn2extensions.coreconfig.TaskCommandDef;
-import com.founder.fix.bpmn2extensions.variableconfig.DataTypeDef;
-import com.founder.fix.bpmn2extensions.variableconfig.DataVariableBizType;
-import com.founder.fix.bpmn2extensions.variableconfig.DataVariableBizTypeConfig;
-import com.founder.fix.bpmn2extensions.variableconfig.DataVariableConfig;
-import com.founder.fix.bpmn2extensions.variableconfig.DataVariableDataType;
+import org.fixflow.model.coreconfig.AssignPolicy;
+import org.fixflow.model.coreconfig.AssignPolicyConfig;
+import org.fixflow.model.coreconfig.TaskCommandConfig;
+import org.fixflow.model.coreconfig.TaskCommandDef;
+import org.fixflow.model.variableconfig.DataTypeDef;
+import org.fixflow.model.variableconfig.DataVariableBizType;
+import org.fixflow.model.variableconfig.DataVariableBizTypeConfig;
+import org.fixflow.model.variableconfig.DataVariableConfig;
+import org.fixflow.model.variableconfig.DataVariableDataType;
 
 public class StencilsetServiceImpl implements StencilsetService {
 

@@ -18,12 +18,12 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
 import java.util.HashSet;
-import java.util.Set;
 import java.util.List;
+import java.util.Set;
 
 import org.eclipse.bpmn2.Activity;
-import org.eclipse.bpmn2.BoundaryEvent;
 import org.eclipse.bpmn2.BaseElement;
+import org.eclipse.bpmn2.BoundaryEvent;
 import org.eclipse.bpmn2.Bpmn2Package;
 import org.eclipse.bpmn2.DataInput;
 import org.eclipse.bpmn2.DataInputAssociation;
@@ -31,13 +31,13 @@ import org.eclipse.bpmn2.DataOutput;
 import org.eclipse.bpmn2.DataOutputAssociation;
 import org.eclipse.bpmn2.ExtensionAttributeValue;
 import org.eclipse.bpmn2.FormalExpression;
-import org.eclipse.bpmn2.MultiInstanceLoopCharacteristics;
-import org.eclipse.bpmn2.StandardLoopCharacteristics;
 import org.eclipse.bpmn2.InputOutputSpecification;
 import org.eclipse.bpmn2.LoopCharacteristics;
+import org.eclipse.bpmn2.MultiInstanceLoopCharacteristics;
 import org.eclipse.bpmn2.Property;
 import org.eclipse.bpmn2.ResourceRole;
 import org.eclipse.bpmn2.SequenceFlow;
+import org.eclipse.bpmn2.StandardLoopCharacteristics;
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
 import org.eclipse.emf.common.util.EList;
@@ -59,15 +59,14 @@ import org.fixflow.core.impl.util.EMFUtil;
 import org.fixflow.core.impl.util.GuidUtil;
 import org.fixflow.core.impl.util.StringUtil;
 import org.fixflow.core.runtime.ExecutionContext;
+import org.fixflow.model.bpmnextensions.Expression;
+import org.fixflow.model.bpmnextensions.FixFlowPackage;
+import org.fixflow.model.bpmnextensions.LoopDataInputCollection;
+import org.fixflow.model.bpmnextensions.LoopDataOutputCollection;
+import org.fixflow.model.bpmnextensions.SkipStrategy;
 import org.quartz.JobKey;
 import org.quartz.Scheduler;
 import org.quartz.impl.matchers.GroupMatcher;
-
-import com.founder.fix.bpmn2extensions.fixflow.Expression;
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
-import com.founder.fix.bpmn2extensions.fixflow.LoopDataInputCollection;
-import com.founder.fix.bpmn2extensions.fixflow.LoopDataOutputCollection;
-import com.founder.fix.bpmn2extensions.fixflow.SkipStrategy;
 
 /**
  * <!-- begin-user-doc --> An implementation of the model object '

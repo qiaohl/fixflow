@@ -77,8 +77,7 @@ import org.fixflow.core.task.IdentityLink;
 import org.fixflow.core.task.TaskInstance;
 import org.fixflow.core.task.TaskQuery;
 import org.fixflow.core.task.UserCommandQueryTo;
-
-import com.founder.fix.bpmn2extensions.coreconfig.Priority;
+import org.fixflow.model.coreconfig.Priority;
 
 public class TaskServiceImpl extends ServiceImpl implements TaskService {
 	

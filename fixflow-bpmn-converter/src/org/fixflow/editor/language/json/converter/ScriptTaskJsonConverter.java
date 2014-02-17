@@ -28,11 +28,7 @@ import org.eclipse.bpmn2.FlowElement;
 import org.eclipse.bpmn2.ScriptTask;
 import org.fixflow.core.impl.bpmn.behavior.ScriptTaskBehavior;
 import org.fixflow.core.impl.util.BpmnModelUtil;
-import org.fixflow.editor.language.json.converter.BaseBpmnJsonConverter;
-import org.fixflow.editor.language.json.converter.ScriptTaskJsonConverter;
-
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
-
+import org.fixflow.model.bpmnextensions.FixFlowPackage;
 
 public class ScriptTaskJsonConverter extends BaseBpmnJsonConverter {
 

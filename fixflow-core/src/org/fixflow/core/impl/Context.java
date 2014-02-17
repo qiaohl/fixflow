@@ -28,9 +28,8 @@ import org.fixflow.core.impl.db.FixConnectionResult;
 import org.fixflow.core.impl.interceptor.CommandContext;
 import org.fixflow.core.impl.util.ReflectUtil;
 import org.fixflow.core.scriptlanguage.AbstractScriptLanguageMgmt;
-
-import com.founder.fix.bpmn2extensions.coreconfig.ScriptLanguage;
-import com.founder.fix.bpmn2extensions.coreconfig.ScriptLanguageConfig;
+import org.fixflow.model.coreconfig.ScriptLanguage;
+import org.fixflow.model.coreconfig.ScriptLanguageConfig;
 
 /**
  * @author kenshin

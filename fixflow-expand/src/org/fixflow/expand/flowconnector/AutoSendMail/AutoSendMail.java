@@ -19,9 +19,8 @@ import org.fixflow.core.task.IdentityLink;
 import org.fixflow.core.task.TaskInstance;
 import org.fixflow.expand.mail.FixMailEngine;
 import org.fixflow.expand.mail.FixMailTo;
-
-import com.founder.fix.bpmn2extensions.coreconfig.MailInfo;
-import com.founder.fix.bpmn2extensions.coreconfig.SysMailConfig;
+import org.fixflow.model.coreconfig.MailInfo;
+import org.fixflow.model.coreconfig.SysMailConfig;
 
 
 public class AutoSendMail implements ConnectorHandler {

@@ -53,10 +53,9 @@ import org.fixflow.core.runtime.ProcessInstanceType;
 import org.fixflow.core.task.TaskInstance;
 import org.fixflow.core.task.TaskInstanceType;
 import org.fixflow.core.task.TaskMgmtInstance;
-
-import com.founder.fix.bpmn2extensions.coreconfig.TaskCommandDef;
-import com.founder.fix.bpmn2extensions.fixflow.DataVariableMapping;
-import com.founder.fix.bpmn2extensions.fixflow.SubProcessToDataSourceMapping;
+import org.fixflow.model.bpmnextensions.DataVariableMapping;
+import org.fixflow.model.bpmnextensions.SubProcessToDataSourceMapping;
+import org.fixflow.model.coreconfig.TaskCommandDef;
 
 public class ProcessInstanceEntity extends AbstractPersistentObject<ProcessInstanceEntity> implements ProcessInstance {
 

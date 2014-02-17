@@ -26,8 +26,7 @@ import org.fixflow.core.exception.FixFlowException;
 import org.fixflow.core.impl.expression.ExpressionMgmt;
 import org.fixflow.core.impl.util.StringUtil;
 import org.fixflow.core.runtime.ExecutionContext;
-
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
+import org.fixflow.model.bpmnextensions.FixFlowPackage;
 
 public class SequenceFlowBehavior extends SequenceFlowImpl {
 	

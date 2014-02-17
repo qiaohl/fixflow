@@ -38,19 +38,16 @@ import org.fixflow.core.impl.bpmn.behavior.TaskCommandInst;
 import org.fixflow.core.impl.bpmn.behavior.UserTaskBehavior;
 import org.fixflow.core.impl.util.BpmnModelUtil;
 import org.fixflow.core.impl.util.StringUtil;
-import org.fixflow.editor.language.json.converter.BaseBpmnJsonConverter;
-import org.fixflow.editor.language.json.converter.UserTaskJsonConverter;
 import org.fixflow.editor.language.json.converter.util.JsonConverterUtil;
-
-import com.founder.fix.bpmn2extensions.fixflow.AssignPolicyType;
-import com.founder.fix.bpmn2extensions.fixflow.Expression;
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowFactory;
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
-import com.founder.fix.bpmn2extensions.fixflow.FormUri;
-import com.founder.fix.bpmn2extensions.fixflow.FormUriView;
-import com.founder.fix.bpmn2extensions.fixflow.TaskCommand;
-import com.founder.fix.bpmn2extensions.fixflow.TaskPriority;
-import com.founder.fix.bpmn2extensions.fixflow.TaskSubject;
+import org.fixflow.model.bpmnextensions.AssignPolicyType;
+import org.fixflow.model.bpmnextensions.Expression;
+import org.fixflow.model.bpmnextensions.FixFlowFactory;
+import org.fixflow.model.bpmnextensions.FixFlowPackage;
+import org.fixflow.model.bpmnextensions.FormUri;
+import org.fixflow.model.bpmnextensions.FormUriView;
+import org.fixflow.model.bpmnextensions.TaskCommand;
+import org.fixflow.model.bpmnextensions.TaskPriority;
+import org.fixflow.model.bpmnextensions.TaskSubject;
 
 
 public class UserTaskJsonConverter extends BaseBpmnJsonConverter {

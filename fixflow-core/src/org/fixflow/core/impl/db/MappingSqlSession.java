@@ -36,10 +36,9 @@ import org.fixflow.core.scriptlanguage.DeleteRulesScript;
 import org.fixflow.core.scriptlanguage.InsertRulesScript;
 import org.fixflow.core.scriptlanguage.SelectRulesScript;
 import org.fixflow.core.scriptlanguage.UpdateRulesScript;
-
-import com.founder.fix.bpmn2extensions.sqlmappingconfig.ResultMap;
-import com.founder.fix.bpmn2extensions.sqlmappingconfig.Rule;
-import com.founder.fix.bpmn2extensions.sqlmappingconfig.Select;
+import org.fixflow.model.sqlmappingconfig.ResultMap;
+import org.fixflow.model.sqlmappingconfig.Rule;
+import org.fixflow.model.sqlmappingconfig.Select;
 
 public class MappingSqlSession {
 

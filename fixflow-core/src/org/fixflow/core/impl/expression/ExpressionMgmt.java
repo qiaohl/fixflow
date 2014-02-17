@@ -23,10 +23,7 @@ import java.util.Map;
 import org.fixflow.core.impl.Context;
 import org.fixflow.core.impl.bpmn.behavior.ProcessDefinitionBehavior;
 import org.fixflow.core.runtime.ExecutionContext;
-
-import com.founder.fix.bpmn2extensions.sqlmappingconfig.Sql;
-
-
+import org.fixflow.model.sqlmappingconfig.Sql;
 
 public class ExpressionMgmt {
 

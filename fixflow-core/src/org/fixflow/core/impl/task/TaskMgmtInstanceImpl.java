@@ -44,11 +44,10 @@ import org.fixflow.core.task.IdentityLinkType;
 import org.fixflow.core.task.TaskDefinition;
 import org.fixflow.core.task.TaskInstance;
 import org.fixflow.core.task.TaskMgmtInstance;
-
-import com.founder.fix.bpmn2extensions.coreconfig.AssignPolicy;
-import com.founder.fix.bpmn2extensions.coreconfig.AssignPolicyConfig;
-import com.founder.fix.bpmn2extensions.fixflow.AssignPolicyType;
-import com.founder.fix.bpmn2extensions.fixflow.FormUri;
+import org.fixflow.model.bpmnextensions.AssignPolicyType;
+import org.fixflow.model.bpmnextensions.FormUri;
+import org.fixflow.model.coreconfig.AssignPolicy;
+import org.fixflow.model.coreconfig.AssignPolicyConfig;
 
 public class TaskMgmtInstanceImpl implements TaskMgmtInstance {
 

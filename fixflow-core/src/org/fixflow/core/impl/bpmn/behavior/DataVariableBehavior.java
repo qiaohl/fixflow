@@ -17,9 +17,7 @@
  */
 package org.fixflow.core.impl.bpmn.behavior;
 
-
-import com.founder.fix.bpmn2extensions.fixflow.DataVariable;
-
+import org.fixflow.model.bpmnextensions.DataVariable;
 
 public class DataVariableBehavior {
 

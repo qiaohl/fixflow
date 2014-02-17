@@ -33,8 +33,9 @@ import org.fixflow.core.task.IdentityLink;
 import org.fixflow.core.task.TaskInstance;
 import org.fixflow.core.task.TaskQuery;
 import org.fixflow.core.task.UserCommandQueryTo;
+import org.fixflow.model.bpmnextensions.TaskCommand;
+import org.fixflow.model.coreconfig.Priority;
 
-import com.founder.fix.bpmn2extensions.coreconfig.Priority;
 public interface TaskService extends ProcessService {
 	
 	

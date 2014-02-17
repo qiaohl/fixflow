@@ -27,9 +27,8 @@ import org.fixflow.core.impl.Context;
 import org.fixflow.core.impl.util.JavaBeanUtil;
 import org.fixflow.core.impl.util.StringUtil;
 import org.fixflow.core.scriptlanguage.AbstractScriptLanguageMgmt;
-
-import com.founder.fix.bpmn2extensions.sqlmappingconfig.Result;
-import com.founder.fix.bpmn2extensions.sqlmappingconfig.ResultMap;
+import org.fixflow.model.sqlmappingconfig.Result;
+import org.fixflow.model.sqlmappingconfig.ResultMap;
 
 
 public abstract class AbstractPersistentObject <T> implements PersistentObject {

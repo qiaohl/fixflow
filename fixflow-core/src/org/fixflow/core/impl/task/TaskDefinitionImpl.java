@@ -35,9 +35,8 @@ import org.fixflow.core.task.IdentityLinkType;
 import org.fixflow.core.task.IncludeExclusion;
 import org.fixflow.core.task.TaskDefinition;
 import org.fixflow.core.task.TaskInstanceType;
-
-import com.founder.fix.bpmn2extensions.fixflow.AssignPolicyType;
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
+import org.fixflow.model.bpmnextensions.AssignPolicyType;
+import org.fixflow.model.bpmnextensions.FixFlowPackage;
 
 public class TaskDefinitionImpl implements TaskDefinition {
 

@@ -44,12 +44,12 @@ import org.eclipse.bpmn2.FormalExpression;
 import org.eclipse.bpmn2.Lane;
 import org.eclipse.bpmn2.MessageEventDefinition;
 import org.eclipse.bpmn2.MultiInstanceLoopCharacteristics;
+import org.eclipse.bpmn2.Process;
 import org.eclipse.bpmn2.SequenceFlow;
 import org.eclipse.bpmn2.SignalEventDefinition;
 import org.eclipse.bpmn2.SubProcess;
 import org.eclipse.bpmn2.ThrowEvent;
 import org.eclipse.bpmn2.TimerEventDefinition;
-import org.eclipse.bpmn2.Process;
 import org.eclipse.bpmn2.di.BPMNShape;
 import org.eclipse.bpmn2.impl.ActivityImpl;
 import org.eclipse.dd.dc.Bounds;
@@ -57,22 +57,17 @@ import org.fixflow.core.impl.util.BpmnModelUtil;
 import org.fixflow.core.impl.util.StringUtil;
 import org.fixflow.editor.constants.EditorJsonConstants;
 import org.fixflow.editor.constants.StencilConstants;
-import org.fixflow.editor.language.json.converter.ActivityProcessor;
-import org.fixflow.editor.language.json.converter.BaseBpmnJsonConverter;
-import org.fixflow.editor.language.json.converter.BpmnJsonConverterUtil;
 import org.fixflow.editor.language.json.converter.util.JsonConverterUtil;
+import org.fixflow.model.bpmnextensions.Expression;
+import org.fixflow.model.bpmnextensions.FixFlowFactory;
+import org.fixflow.model.bpmnextensions.FixFlowPackage;
+import org.fixflow.model.bpmnextensions.LoopDataInputCollection;
+import org.fixflow.model.bpmnextensions.LoopDataOutputCollection;
+import org.fixflow.model.bpmnextensions.SkipAssignee;
+import org.fixflow.model.bpmnextensions.SkipComment;
+import org.fixflow.model.bpmnextensions.SkipStrategy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import com.founder.fix.bpmn2extensions.fixflow.Expression;
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowFactory;
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
-import com.founder.fix.bpmn2extensions.fixflow.LoopDataInputCollection;
-import com.founder.fix.bpmn2extensions.fixflow.LoopDataOutputCollection;
-import com.founder.fix.bpmn2extensions.fixflow.SkipAssignee;
-import com.founder.fix.bpmn2extensions.fixflow.SkipComment;
-import com.founder.fix.bpmn2extensions.fixflow.SkipStrategy;
-
 
 public abstract class BaseBpmnJsonConverter implements EditorJsonConstants, StencilConstants {
   

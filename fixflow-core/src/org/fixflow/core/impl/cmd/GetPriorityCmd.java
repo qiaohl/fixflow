@@ -22,9 +22,8 @@ package org.fixflow.core.impl.cmd;
 import org.fixflow.core.impl.interceptor.Command;
 import org.fixflow.core.impl.interceptor.CommandContext;
 import org.fixflow.core.impl.util.StringUtil;
-
-import com.founder.fix.bpmn2extensions.coreconfig.Priority;
-import com.founder.fix.bpmn2extensions.coreconfig.PriorityConfig;
+import org.fixflow.model.coreconfig.Priority;
+import org.fixflow.model.coreconfig.PriorityConfig;
 
 public class GetPriorityCmd implements Command<Priority>{
 	

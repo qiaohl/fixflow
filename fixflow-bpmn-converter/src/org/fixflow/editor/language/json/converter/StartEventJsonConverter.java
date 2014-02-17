@@ -26,23 +26,16 @@ import org.eclipse.bpmn2.BaseElement;
 import org.eclipse.bpmn2.Bpmn2Factory;
 import org.eclipse.bpmn2.CatchEvent;
 import org.eclipse.bpmn2.ErrorEventDefinition;
-import org.eclipse.bpmn2.Event;
 import org.eclipse.bpmn2.EventDefinition;
 import org.eclipse.bpmn2.FlowElement;
 import org.eclipse.bpmn2.MessageEventDefinition;
 import org.eclipse.bpmn2.SignalEventDefinition;
 import org.eclipse.bpmn2.StartEvent;
 import org.eclipse.bpmn2.TimerEventDefinition;
-import org.eclipse.emf.ecore.impl.EStructuralFeatureImpl.SimpleFeatureMapEntry;
-import org.eclipse.emf.ecore.util.FeatureMap;
 import org.fixflow.core.impl.bpmn.behavior.StartEventBehavior;
 import org.fixflow.core.impl.util.BpmnModelUtil;
 import org.fixflow.core.impl.util.StringUtil;
-import org.fixflow.editor.language.json.converter.BaseBpmnJsonConverter;
-import org.fixflow.editor.language.json.converter.BpmnJsonConverterUtil;
-import org.fixflow.editor.language.json.converter.StartEventJsonConverter;
-
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
+import org.fixflow.model.bpmnextensions.FixFlowPackage;
 
 /**
  * @author Tijs Rademakers

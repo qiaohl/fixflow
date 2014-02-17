@@ -1,11 +1,8 @@
 package com.founder.fix.fixflow.test.engine.entity;
 
-import java.beans.PropertyDescriptor;
-import java.lang.reflect.Method;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import org.fixflow.core.impl.db.AbstractPersistentObject;
@@ -14,9 +11,8 @@ import org.fixflow.core.impl.util.ReflectUtil;
 import org.fixflow.core.impl.util.StringUtil;
 import org.fixflow.core.task.DelegationState;
 import org.fixflow.core.task.TaskInstanceType;
+import org.fixflow.model.sqlmappingconfig.ResultMap;
 
-import com.founder.fix.bpmn2extensions.sqlmappingconfig.Result;
-import com.founder.fix.bpmn2extensions.sqlmappingconfig.ResultMap;
 import com.founder.fix.fixflow.test.AbstractFixFlowTestCase;
 
 public class TaskInstanceEntityTest extends AbstractFixFlowTestCase {

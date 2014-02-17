@@ -19,10 +19,9 @@ import org.eclipse.bpmn2.Task;
 import org.eclipse.bpmn2.UserTask;
 import org.eclipse.emf.ecore.util.FeatureMap;
 import org.eclipse.emf.ecore.util.FeatureMap.Entry;
-
-import com.founder.fix.bpmn2extensions.fixflow.FormUri;
-import com.founder.fix.bpmn2extensions.fixflow.TaskCommand;
-import com.founder.fix.bpmn2extensions.fixflow.TaskSubject;
+import org.fixflow.model.bpmnextensions.FormUri;
+import org.fixflow.model.bpmnextensions.TaskCommand;
+import org.fixflow.model.bpmnextensions.TaskSubject;
 
 public class VerificationUtil {
 

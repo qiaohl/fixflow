@@ -25,8 +25,7 @@ import java.util.List;
 import org.eclipse.bpmn2.UserTask;
 import org.fixflow.core.action.AssignmentHandler;
 import org.fixflow.core.impl.task.TaskAssigneeDefinitionTo;
-
-import com.founder.fix.bpmn2extensions.fixflow.AssignPolicyType;
+import org.fixflow.model.bpmnextensions.AssignPolicyType;
 
 public interface TaskDefinition extends Serializable{
 	

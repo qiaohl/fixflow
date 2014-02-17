@@ -21,10 +21,9 @@ import java.sql.Connection;
 
 import org.fixflow.core.impl.Context;
 import org.fixflow.core.impl.util.StringUtil;
+import org.fixflow.model.coreconfig.QuartzConfig;
 import org.quartz.JobPersistenceException;
 import org.quartz.impl.jdbcjobstore.JobStoreTX;
-
-import com.founder.fix.bpmn2extensions.coreconfig.QuartzConfig;
 
 public class JobStoreFix extends JobStoreTX {
 

@@ -50,12 +50,12 @@ import org.fixflow.core.impl.util.QuartzUtil;
 import org.fixflow.core.impl.util.StringUtil;
 import org.fixflow.core.runtime.ExecutionContext;
 import org.fixflow.core.task.TaskInstance;
+import org.fixflow.model.bpmnextensions.ConnectorInstance;
+import org.fixflow.model.bpmnextensions.FixFlowPackage;
 import org.quartz.JobDetail;
 import org.quartz.Scheduler;
 import org.quartz.Trigger;
 
-import com.founder.fix.bpmn2extensions.fixflow.ConnectorInstance;
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
 
 /**
  * <!-- begin-user-doc --> An implementation of the model object '

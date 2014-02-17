@@ -27,9 +27,8 @@ import org.fixflow.core.impl.expression.ExpressionMgmt;
 import org.fixflow.core.impl.util.StringUtil;
 import org.fixflow.core.runtime.ExecutionContext;
 import org.fixflow.core.task.UserCommandQueryTo;
-
-import com.founder.fix.bpmn2extensions.coreconfig.TaskCommandDef;
-import com.founder.fix.bpmn2extensions.fixflow.TaskCommand;
+import org.fixflow.model.bpmnextensions.TaskCommand;
+import org.fixflow.model.coreconfig.TaskCommandDef;
 
 public class TaskCommandInst implements UserCommandQueryTo{
 

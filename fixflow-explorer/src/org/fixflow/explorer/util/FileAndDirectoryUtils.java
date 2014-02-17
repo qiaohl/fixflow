@@ -20,9 +20,9 @@ package org.fixflow.explorer.util;
 import java.io.File;
 import java.util.List;
 
-import com.founder.fix.bpmn2extensions.coreconfig.ResourcePath;
 import org.fixflow.core.ProcessEngineManagement;
 import org.fixflow.core.impl.ProcessEngineConfigurationImpl;
+import org.fixflow.model.coreconfig.ResourcePath;
 import org.fixflow.util.FileUtil;
 
 /**

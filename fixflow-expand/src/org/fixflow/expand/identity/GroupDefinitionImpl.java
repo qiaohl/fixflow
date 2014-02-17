@@ -32,8 +32,7 @@ import org.fixflow.core.impl.identity.GroupDefinition;
 import org.fixflow.core.impl.identity.GroupTo;
 import org.fixflow.core.impl.identity.UserTo;
 import org.fixflow.core.impl.util.StringUtil;
-
-import com.founder.fix.bpmn2extensions.coreconfig.UserInfo;
+import org.fixflow.model.coreconfig.UserInfo;
 
 public class GroupDefinitionImpl extends GroupDefinition {
 

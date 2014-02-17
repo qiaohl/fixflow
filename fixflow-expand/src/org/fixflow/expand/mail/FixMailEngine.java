@@ -30,9 +30,8 @@ import org.fixflow.core.impl.Context;
 import org.fixflow.core.impl.db.SqlCommand;
 import org.fixflow.core.impl.util.MailUtil;
 import org.fixflow.core.impl.util.StringUtil;
-
-import com.founder.fix.bpmn2extensions.coreconfig.MailInfo;
-import com.founder.fix.bpmn2extensions.coreconfig.SysMailConfig;
+import org.fixflow.model.coreconfig.MailInfo;
+import org.fixflow.model.coreconfig.SysMailConfig;
 
 public class FixMailEngine {
 

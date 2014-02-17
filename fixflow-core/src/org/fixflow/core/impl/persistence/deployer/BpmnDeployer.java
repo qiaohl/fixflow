@@ -47,8 +47,7 @@ import org.fixflow.core.impl.util.GuidUtil;
 import org.fixflow.core.impl.util.ReflectUtil;
 import org.fixflow.core.impl.util.StringUtil;
 import org.fixflow.core.impl.util.VerificationUtil;
-
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
+import org.fixflow.model.bpmnextensions.FixFlowPackage;
 
 /**
  * @author kenshins

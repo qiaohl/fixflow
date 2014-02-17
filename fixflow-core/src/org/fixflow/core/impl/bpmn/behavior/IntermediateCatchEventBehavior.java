@@ -32,8 +32,7 @@ import org.fixflow.core.impl.util.GuidUtil;
 import org.fixflow.core.runtime.ExecutionContext;
 import org.fixflow.core.task.TaskInstance;
 import org.fixflow.core.task.TaskInstanceType;
-
-import com.founder.fix.bpmn2extensions.coreconfig.TaskCommandDef;
+import org.fixflow.model.coreconfig.TaskCommandDef;
 
 public class IntermediateCatchEventBehavior extends IntermediateCatchEventImpl {
 	

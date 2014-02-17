@@ -32,17 +32,10 @@ import org.eclipse.bpmn2.FormalExpression;
 import org.eclipse.bpmn2.SequenceFlow;
 import org.eclipse.bpmn2.di.BPMNEdge;
 import org.eclipse.dd.dc.Point;
-import org.eclipse.emf.ecore.impl.EStructuralFeatureImpl.SimpleFeatureMapEntry;
-import org.eclipse.emf.ecore.util.FeatureMap;
 import org.fixflow.core.impl.bpmn.behavior.SequenceFlowBehavior;
 import org.fixflow.core.impl.util.BpmnModelUtil;
 import org.fixflow.core.impl.util.StringUtil;
-import org.fixflow.editor.language.json.converter.ActivityProcessor;
-import org.fixflow.editor.language.json.converter.BaseBpmnJsonConverter;
-import org.fixflow.editor.language.json.converter.BpmnJsonConverterUtil;
-import org.fixflow.editor.language.json.converter.SequenceFlowJsonConverter;
-
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
+import org.fixflow.model.bpmnextensions.FixFlowPackage;
 
 /**
  * @author Tijs Rademakers

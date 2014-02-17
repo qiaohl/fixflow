@@ -26,10 +26,8 @@ import org.fixflow.core.exception.FixFlowConnectorException;
 import org.fixflow.core.impl.expression.ExpressionMgmt;
 import org.fixflow.core.impl.util.StringUtil;
 import org.fixflow.core.runtime.ExecutionContext;
-
-import com.founder.fix.bpmn2extensions.fixflow.ConnectorParameterInputs;
-import com.founder.fix.bpmn2extensions.fixflow.ConnectorParameterOutputs;
-
+import org.fixflow.model.bpmnextensions.ConnectorParameterInputs;
+import org.fixflow.model.bpmnextensions.ConnectorParameterOutputs;
 
 public class ConnectorInstanceBehavior {
 

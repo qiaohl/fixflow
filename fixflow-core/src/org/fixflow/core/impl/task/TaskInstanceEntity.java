@@ -52,11 +52,10 @@ import org.fixflow.core.task.TaskInstance;
 import org.fixflow.core.task.TaskInstanceType;
 import org.fixflow.core.task.TaskMgmtInstance;
 import org.fixflow.core.task.TaskQuery;
+import org.fixflow.model.coreconfig.TaskCommandDef;
 import org.quartz.JobKey;
 import org.quartz.Scheduler;
 import org.quartz.SchedulerException;
-
-import com.founder.fix.bpmn2extensions.coreconfig.TaskCommandDef;
 
 public class TaskInstanceEntity extends AbstractPersistentObject<TaskInstanceEntity> implements TaskInstance, Assignable, Cloneable {
 

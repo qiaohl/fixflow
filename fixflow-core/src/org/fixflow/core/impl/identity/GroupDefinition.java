@@ -27,9 +27,8 @@ import org.fixflow.core.impl.Page;
 import org.fixflow.core.impl.db.SqlCommand;
 import org.fixflow.core.impl.util.StringUtil;
 import org.fixflow.core.internationalization.FixFlowResources;
-
-import com.founder.fix.bpmn2extensions.coreconfig.DesignerOrgConfig;
-import com.founder.fix.bpmn2extensions.coreconfig.GroupInfo;
+import org.fixflow.model.coreconfig.DesignerOrgConfig;
+import org.fixflow.model.coreconfig.GroupInfo;
 
 public abstract class GroupDefinition {
 

@@ -22,8 +22,8 @@ import org.fixflow.core.exception.FixFlowException;
 import org.fixflow.core.impl.ProcessEngineConfigurationImpl;
 import org.fixflow.core.runtime.QueryLocation;
 
-import com.founder.fix.bpmn2extensions.sqlmappingconfig.Column;
-import com.founder.fix.bpmn2extensions.sqlmappingconfig.DataBaseTable;
+import org.fixflow.model.sqlmappingconfig.Column;
+import org.fixflow.model.sqlmappingconfig.DataBaseTable;
 /**
  * 查询query中数据来源工具类，用来处理归档表 运行表之间的关系
  * @author Administrator

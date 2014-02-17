@@ -38,7 +38,7 @@ import org.fixflow.core.task.TaskDefinition;
 import org.fixflow.core.task.TaskInstance;
 import org.fixflow.core.task.TaskMgmtInstance;
 
-import com.founder.fix.bpmn2extensions.fixflow.SkipStrategy;
+import org.fixflow.model.bpmnextensions.SkipStrategy;
 
 public interface ExecutionContext {
 	

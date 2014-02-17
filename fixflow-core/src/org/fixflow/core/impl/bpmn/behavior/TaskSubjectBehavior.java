@@ -17,8 +17,7 @@
  */
 package org.fixflow.core.impl.bpmn.behavior;
 
-
-import com.founder.fix.bpmn2extensions.fixflow.TaskSubject;
+import org.fixflow.model.bpmnextensions.TaskSubject;
 
 public class TaskSubjectBehavior {
 

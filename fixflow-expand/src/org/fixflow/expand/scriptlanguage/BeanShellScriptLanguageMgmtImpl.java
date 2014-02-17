@@ -29,11 +29,10 @@ import org.fixflow.core.impl.db.SqlCommand;
 import org.fixflow.core.impl.expression.ExpressionMgmt;
 import org.fixflow.core.runtime.ExecutionContext;
 import org.fixflow.core.scriptlanguage.AbstractScriptLanguageMgmt;
+import org.fixflow.model.sqlmappingconfig.Rule;
 
 import bsh.EvalError;
 import bsh.Interpreter;
-
-import com.founder.fix.bpmn2extensions.sqlmappingconfig.Rule;
 
 public class BeanShellScriptLanguageMgmtImpl extends AbstractScriptLanguageMgmt {
 

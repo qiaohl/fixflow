@@ -38,10 +38,9 @@ import org.fixflow.core.impl.expression.ExpressionMgmt;
 import org.fixflow.core.impl.runtime.ProcessInstanceEntity;
 import org.fixflow.core.impl.util.EMFUtil;
 import org.fixflow.core.impl.util.StringUtil;
-
-import com.founder.fix.bpmn2extensions.fixflow.FixFlowPackage;
-import com.founder.fix.bpmn2extensions.fixflow.FormUri;
-import com.founder.fix.bpmn2extensions.fixflow.TaskSubject;
+import org.fixflow.model.bpmnextensions.FixFlowPackage;
+import org.fixflow.model.bpmnextensions.FormUri;
+import org.fixflow.model.bpmnextensions.TaskSubject;
 
 public class ProcessDefinitionBehavior extends ProcessImpl implements PersistentObject {
 
