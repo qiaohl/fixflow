@@ -144,8 +144,8 @@
     <resourcePath id="fixflow-repository-flow-template" name="fixflow-repository-flow-template" projectName="fixflow-expand" virtualPath="template/flow-template/"/>
     <resourcePath id="fixflow-repository-node-template" name="fixflow-repository-node-template" projectName="fixflow-expand" virtualPath="template/node-template/"/>
     <resourcePath id="system-template" name="system-template" projectName="fixflow-expand" src="template/system-template/" virtualPath="template/system-template"/>
-    <resourcePath id="flowConnector-path" name="流程连接器路径" projectName="fixflow-expand" src="org/fixflow/expand/flowconnector/FlowConnectorMenu.xml" virtualPath="src/com/founder/fix/fixflow/expand/flowconnector/"/>
-    <resourcePath id="actorConnector-path" name="处理者选择器路径" projectName="fixflow-expand" src="org/fixflow/expand/actorconnector/ActorConnectorMenu.xml" virtualPath="src/com/founder/fix/fixflow/expand/actorconnector/"/>
+    <resourcePath id="flowConnector-path" name="流程连接器路径" projectName="fixflow-expand" src="org/fixflow/expand/flowconnector/FlowConnectorMenu.xml" virtualPath="src/org/fixflow/expand/flowconnector/"/>
+    <resourcePath id="actorConnector-path" name="处理者选择器路径" projectName="fixflow-expand" src="org/fixflow/expand/actorconnector/ActorConnectorMenu.xml" virtualPath="src/org/fixflow/expand/actorconnector/"/>
     <resourcePath id="fixflow-editor-public-repository" name="web流程设计器公共资源路径" physicalPath="D:\GIT\fixflow\fixflow-explorer\WebContent\fixflow-repository\shared"/>
     <resourcePath id="fixflow-editor-private-repository" name="web流程设计器私有资源路径" physicalPath="D:\GIT\fixflow\fixflow-explorer\WebContent\fixflow-repository\private"/>
   </resourcePathConfig>
